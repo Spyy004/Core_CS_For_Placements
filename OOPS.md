@@ -10,6 +10,11 @@
     - Name of the constructor is same as the name of the class
     - There are 3 types of constructors. Default, parametrized, and copy.
     - Copy Constructors accepts an object of the same class and copies all its members to the object on the left part of the assignment
+- Destructors
+    - Destructors have the same name as class, defined by (~) tilde character behind classname.
+    - A destructor takes no arguments and has no return type. Its address cannot be taken. Destructors cannot be declared const , volatile , const volatile or static . A destructor can be declared virtual or pure virtual .
+    - Unlike contructors you cannot define more than one destructor in class definition.
+    - Destructors are useful when you want to release some program resources, like when object leaves its scope, release certain files etc.
 - Encapsulation
     - Encapsulation is bundling of data that work together.
     - Encapsulation means setting the variables which we don't want other classes to use as private.
